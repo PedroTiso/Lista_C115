@@ -1,0 +1,32 @@
+## Questão 1  
+NFV surgiu em 2012 pelo ETSI com o objetivo de virtualizar funções de rede, como firewalls e roteadores, em máquinas virtuais para reduzir custos e aumentar a flexibilidade, enquanto o SDN nasceu em pesquisas acadêmicas por volta de 2008 para separar o plano de controle do plano de dados e permitir o gerenciamento centralizado e programável da rede.
+
+---
+
+## Questão 2  
+Dois benefícios da NFV para provedores de serviços são a **redução de custos**, já que funções de rede passam a rodar em hardware padrão em vez de equipamentos dedicados, e a **maior flexibilidade/agilidade**, permitindo implantar ou escalar serviços rapidamente por meio de software.
+
+---
+
+## Questão 3  
+- **Infraestrutura NFV (NFVI)**: é a base física e virtual composta por servidores, armazenamento e rede, onde as funções de rede virtualizadas (VNFs) são executadas.  
+- **Funções de Rede Virtualizadas (VNFs)**: são os softwares que realizam funções tradicionalmente feitas por hardware dedicado (como firewall, roteador etc.), rodando sobre a infraestrutura NFV.  
+- **Gerenciamento e Orquestração (MANO)**: é o conjunto de sistemas que gerencia, automatiza e orquestra as VNFs e os recursos da infraestrutura, garantindo que tudo funcione de forma integrada e eficiente.
+
+---
+
+## Questão 4  
+Duas grandes dificuldades encontradas são a **falta de flexibilidade** e principalmente a **complexidade no gerenciamento**, pois cada dispositivo em específico precisa ser configurado individualmente.
+
+---
+
+## Questão 5  
+Ele elimina a necessidade da compra de equipamentos dedicados, permitindo que pequenas empresas contratem apenas as funções de rede que precisam, sob demanda, em servidores comuns ou em nuvem, pagando menos e escalando os serviços conforme o crescimento.
+
+---
+
+## Questão 6 – Exemplos de uso de NFV  
+- **Vodafone Alemanha (Vodafone Germany)** → Permitiu agilizar o lançamento do serviço VoLTE, usar múltiplas VNFs de diferentes fornecedores sobre uma infra-nuvem comum, melhorar eficiência energética do aparelho e **reduzir** o tempo de provisionamento de serviços dedicados de hardware.  
+- **Vodafone Qatar com a Nokia** → Maior flexibilidade e capacidade para lidar com crescimento de demanda de assinantes.
+
+---
